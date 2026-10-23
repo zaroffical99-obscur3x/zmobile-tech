@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="iRepair logo favicon">
+  <defs>
+    <linearGradient id="g1" x1="80" y1="80" x2="430" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1ac8ff"/>
+      <stop offset="0.5" stop-color="#0b9dff"/>
+      <stop offset="1" stop-color="#006eff"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="145" y1="170" x2="350" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1cc8ff"/>
+      <stop offset="1" stop-color="#007cff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="120" fill="#02080f"/>
+
+  <g transform="translate(52 30)">
+    <rect x="42" y="42" width="320" height="380" rx="56" fill="none" stroke="#f7f7f7" stroke-width="22"/>
+    <rect x="86" y="72" width="232" height="24" rx="12" fill="#f7f7f7" opacity="0.95"/>
+    <path d="M150 230c0-52 42-94 94-94h28v52h-28c-23 0-42 19-42 42v36c0 23 19 42 42 42h28v52h-28c-52 0-94-42-94-94v-36Z" fill="#f7f7f7"/>
+
+    <g transform="translate(128 160)">
+      <path d="M96 12L205 122c22 22 24 58 6 82l-43 58c-17 23-52 29-77 12l-34-22 46-62 32 20 35-47L126 122l-43 59-44-32 0-0 34-46 39-51Z" fill="url(#g2)" opacity="0.98"/>
+      <path d="M92 18l44 44-44 59-45-32 45-71Zm132 159L89 300l29 46 142-122-28-47Z" fill="url(#g1)"/>
+      <path d="M147 134l50 60 44-59-46-60-48 59Z" fill="#f7f7f7" opacity="0.9"/>
+      <circle cx="143" cy="79" r="36" fill="url(#g2)"/>
+      <path d="M143 47a32 32 0 0 1 32 32v7h-19v-7a13 13 0 0 0-26 0v7h-18v-7a32 32 0 0 1 32-32Z" fill="#f7f7f7" opacity="0.88"/>
+      <path d="M120 114l48 55m-24 35l-33 37" stroke="#f7f7f7" stroke-width="16" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
